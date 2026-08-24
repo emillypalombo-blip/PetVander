@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: " Roboto Slab", sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+header {
+    margin: 30px 0px 144px 70px;
+}
+a {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 25px;
+    cursor: pointer;
+    color: #1c1000;
+    transition: opacity 0.2s;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.botao-login {
+    width: 130px;
+    height: 38px;
+    border-radius: 200px;
+    background: #061389;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(232, 237, 241);
+    transition: opacity 0.2s;
+}
+
+.botao-login:hover {
+    opacity: 0.8;
+}
+
+logo {
+    width: 40%;
+    vertical-align: middle;
+}
+
+.texto {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 5%;
+    text-align: left;
+}
+
+main {
+    text-align: center;
+}
+
+.botao-explore {
+    width: 180px;
+    height: 44px;
+    cursor: pointer;
+    background: #8dff71;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+}
+.botao-explore:hover {
+    opacity: 0.7;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 900;
+    color: #515151;
+}
+.sub-titulo{
+    color: #515151;
+    line-height: 60px;
+    font-size: 30px;
+}
+.paragrafo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#848484;
+    text-align: justify;
+    margin: 20px 0 30px 0;
+    max-width: 500px;
+}
+
+footer{
+    text-align: center;
+    background: #f4f4f4;
+    padding: 60px;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+@media (max-width:768px){
+    header {
+    margin: 30px 0px 60px 0px;
+    text-align: center;
+    width: 100%;
+}
+a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 5px 0 0;
+}
+
+.botao-login{
+    width: 90px;
+    height: 32px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+logo {
+    width: 40%;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+.texto {
+    width: 80%;
+    text-align: center;
+}
+.titulo{
+    font-size: 30px;
+}
+}
