@@ -3,162 +3,190 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    }
-    
-    li {
+}
+
+li {
     display: inline-block;
-    }
-    
-    nav {
+}
+
+nav {
     display: inline-block;
-    }
-    
-    header {
+}
+
+header {
     margin: 30px 0px 144px 70px;
-    }
-    
-    a {
+}
+
+.link-menu {
     font-weight: 500;
     font-size: 30px;
     line-height: 30px;
     margin: 25px;
     cursor: pointer;
-    color: #000000;
+    color: #1F2833;
     transition: opacity 0.2;
     text-decoration: none;
-    }
-    
-    a:hover {
+}
+
+a:hover {
     opacity: 0.8;
-    }
-    
-    .botao-login {
+}
+
+.botaoL {
     width: 160px;
     height: 40px;
     border-radius: 30px;
-    background: #9fb9dd;
+    background: #5f799e;
     border: none;
     font-size: 20px;
     font-weight: 600;
     color: #E6EBFF;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.2s;
-    }
-    
-    .botao-login:hover {
+}
+
+.botaoL:hover {
     opacity: 0.8;
-    
-    }
-    
-    .logo {
+
+}
+
+.logo {
     width: 40%;
     max-width: 430PX;
     vertical-align: middle;
     margin: 0 5%;
-    }
-    
-    .texto {
+}
+
+.texto {
     width: 40%;
     display: inline-block;
     vertical-align: middle;
     margin: 0 0 0 5%;
     text-align: left;
-    }
-    
-    main {
+}
+
+main {
     text-align: center;
-    }
-    
-    .botao-explore {
+}
+
+.botaoE {
     width: 180px;
     height: 45px;
     border-radius: 30px;
     cursor: pointer;
-    background: #c09fae;
+    background: #36807c;
     border: none;
     font-size: 20px;
     font-weight: 600;
     color: #E6EBFF;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s;
-    }
-    
-    .botao-explore :hover {
-    opacity: 0.8;
-    }
-    
-    .titulo {
+}
+
+.botaoE:hover {
+    opacity: 0.2;
+}
+
+.titulo {
     font-size: 50px;
     font-weight: 800;
     color: #515151;
-    }
-    
-    .subtitulo {
+}
+
+.subtitulo {
     font-size: 30px;
     color: #515151;
     line-height: 60px;
-    }
-    
-    .paragrafo {
+}
+
+.paragrafo {
     font-size: 16px;
     font-weight: 350;
     line-height: 20px;
-    color: #848484;
+    color: #5f5555;
     text-align: justify;
     margin: 20px 0 30px 0;
     max-width: 500px;
-    }
-    
-    footer {
+}
+
+footer {
     text-align: center;
     background: #f4f4f4;
     padding: 60px;
     font-size: 15px;
     margin-top: 100px;
-    }
-    
-    .img-dog {
+}
+
+.img-dog {
     display: block;
     width: 60%;
     height: 450px;
     object-fit: cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
-    }
-    
-    @media (max-width:768px) {
-    header {
-    margin: 30px 0px 65px 0px;
-    text-align: center;
-    width: 100%;
-    }
-    
-    a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    margin: 5px;
-    }
-    
-    .bota-login {
-    width: 85px;
-    height: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    }
-    
-    .logo {
-    width: 55%;
+}
+
+.servicos{
+
+}
+.h2-servicos{
+
+}
+.preeco{
+
+}
+.lista-servicos{
+    width: 240px;
     display: block;
-    margin: 0 auto 50px auto;
+    text-decoration: none;
+    color: #515151;
+    border: 2px solid;
+    margin: 0 20px;
+    padding: 20px 0 ;
+    border-radius: 15px;
+}
+
+.lista-servicos:hover{
+    box-shadow: 0 0 0 rgba(214, 214, 214, 0.2);
+}
+
+.img-card{
+   width: 70%;
+}
+
+@media (max-width:768px) {
+    header {
+        margin: 30px 0px 65px 0px;
+        text-align: center;
+        width: 100%;
     }
-    
+
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 5px;
+    }
+
+    .botaoL {
+        width: 85px;
+        height: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 55%;
+        display: block;
+        margin: 0 auto 50px auto;
+    }
+
     .texto {
-    width: 80%;
-    text-align: center;
+        width: 80%;
+        text-align: center;
     }
-    
+
     .titulo {
-    font-size: 30px;
+        font-size: 30px;
     }
-    }
+}
