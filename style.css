@@ -127,12 +127,14 @@ footer {
 }
 
 .servicos{
-
+padding: 10px 0 100px 0;
 }
 .h2-servicos{
+font-weight: 500;
 
 }
-.preeco{
+.preco{
+    
 
 }
 .lista-servicos{
@@ -141,13 +143,16 @@ footer {
     text-decoration: none;
     color: #515151;
     border: 2px solid;
-    margin: 0 20px;
+    margin: 0 50px;
     padding: 20px 0 ;
     border-radius: 15px;
+    transition: box-shadow 0,2, transform 0,2;
+    
 }
 
 .lista-servicos:hover{
-    box-shadow: 0 0 0 rgba(214, 214, 214, 0.2);
+    box-shadow: 0 2px 5px rgba(214, 214, 214, 0.2);
+    transform: translateV(-2px);
 }
 
 .img-card{
@@ -188,5 +193,16 @@ footer {
 
     .titulo {
         font-size: 30px;
+    }
+
+    .h2-servicos{
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .lista-servicos{
+        width: 200px;
+        margin: 17px 10px;
+        padding: 16px 0 ;
     }
 }
