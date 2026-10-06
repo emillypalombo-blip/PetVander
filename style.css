@@ -14,16 +14,31 @@ nav {
 }
 
 header {
-    margin: 30px 0px 144px 70px;
+    margin: 14px 0 76px 0 ;
+    background-color: #E3B5A4;
+    padding: 30px 0 20px 0;
+    border-bottom: 2px solid #F7D6D0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-
+.nome{
+   font-size: 30px ;
+   font-weight: 700;
+}
+.n1{
+    color: #934E5B;
+}
+.n2{
+    color: #F5E9E2;
+}
 .link-menu {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     margin: 25px;
     cursor: pointer;
-    color: #1F2833;
+    color: #4e2c2c;
     transition: opacity 0.2;
     text-decoration: none;
 }
@@ -36,12 +51,12 @@ a:hover {
     width: 160px;
     height: 40px;
     border-radius: 30px;
-    background: #5f799e;
+    background: #934E5B;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    color: #E6EBFF;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    box-shadow: 0 4px 5px rgba(126, 60, 60, 0.2);
     transition: opacity 0.2s;
 }
 
@@ -52,9 +67,11 @@ a:hover {
 
 .logo {
     width: 40%;
-    max-width: 430PX;
+    max-width: 430px;
+    display: inline-block;
     vertical-align: middle;
-    margin: 0 5%;
+    margin:0 5%;
+    border-radius: 15px;
 }
 
 .texto {
@@ -74,11 +91,11 @@ main {
     height: 45px;
     border-radius: 30px;
     cursor: pointer;
-    background: #36807c;
+    background: #773344;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    color: #E6EBFF;
+    color: #ffffff;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s;
 }
@@ -90,12 +107,12 @@ main {
 .titulo {
     font-size: 50px;
     font-weight: 800;
-    color: #515151;
+    color: #160029;
 }
 
 .subtitulo {
     font-size: 30px;
-    color: #515151;
+    color: #3A364D;
     line-height: 60px;
 }
 
@@ -111,10 +128,11 @@ main {
 
 footer {
     text-align: center;
-    background: #f4f4f4;
-    padding: 60px;
+    background-color: #b38383;
+    padding: 80px 0 80px 0;
     font-size: 15px;
     margin-top: 100px;
+    color: #ffffff;
 }
 
 .img-dog {
@@ -133,10 +151,7 @@ padding: 10px 0 100px 0;
 font-weight: 500;
 
 }
-.preco{
-    
 
-}
 .lista-servicos{
     width: 240px;
     display: block;
@@ -147,7 +162,6 @@ font-weight: 500;
     padding: 20px 0 ;
     border-radius: 15px;
     transition: box-shadow 0,2, transform 0,2;
-    
 }
 
 .lista-servicos:hover{
@@ -161,16 +175,20 @@ font-weight: 500;
 
 @media (max-width:768px) {
     header {
-        margin: 30px 0px 65px 0px;
+        margin: 20px 0 30px 0;
         text-align: center;
         width: 100%;
     }
 
+    .nome{
+        display: none;
+    }
+
     a {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 16px;
-        line-height: 30px;
-        margin: 5px;
+        margin: 0 5px 0 0;
+
     }
 
     .botaoL {
