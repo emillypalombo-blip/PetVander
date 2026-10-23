@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 li {
@@ -15,9 +16,9 @@ nav {
 
 header {
     margin: 14px 0 76px 0 ;
-    background-color: #E3B5A4;
+    background-color: #fffaee;
     padding: 30px 0 20px 0;
-    border-bottom: 2px solid #F7D6D0;
+    border-bottom: 2px solid #f1ede5;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -30,7 +31,7 @@ header {
     color: #934E5B;
 }
 .n2{
-    color: #F5E9E2;
+    color: #3f2b27;
 }
 .link-menu {
     font-weight: 500;
@@ -56,12 +57,12 @@ a:hover {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-    box-shadow: 0 4px 5px rgba(126, 60, 60, 0.2);
-    transition: opacity 0.2s;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
 }
 
 .botaoL:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
@@ -72,6 +73,7 @@ a:hover {
     vertical-align: middle;
     margin:0 5%;
     border-radius: 15px;
+
 }
 
 .texto {
@@ -80,6 +82,9 @@ a:hover {
     vertical-align: middle;
     margin: 0 0 0 5%;
     text-align: left;
+    background-color: #fff3f3;
+    border-radius: 5%;
+
 }
 
 main {
@@ -91,12 +96,12 @@ main {
     height: 45px;
     border-radius: 30px;
     cursor: pointer;
-    background: #773344;
+    background: #c5788c;
     border: none;
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 5px rgba(255, 255, 255, 0.918);
     transition: opacity 0.3s;
 }
 
@@ -107,28 +112,32 @@ main {
 .titulo {
     font-size: 50px;
     font-weight: 800;
-    color: #160029;
+    color: #5a370f;
+    height: 70px;
+    text-shadow: 2px 6px 4px rgba(175, 141, 141, 0.5);
 }
 
-.subtitulo {
-    font-size: 30px;
-    color: #3A364D;
-    line-height: 60px;
+.sub-titulo {
+    font-size: 40px;
+    color: #4e2c2c;
+    line-height: -90px;
+    height: 70px;
 }
 
 .paragrafo {
     font-size: 16px;
     font-weight: 350;
     line-height: 20px;
-    color: #5f5555;
+    color: #6d3434;
     text-align: justify;
     margin: 20px 0 30px 0;
     max-width: 500px;
+    height: 50px;
 }
 
 footer {
     text-align: center;
-    background-color: #b38383;
+    background-color: #ac7d7d;
     padding: 80px 0 80px 0;
     font-size: 15px;
     margin-top: 100px;
@@ -140,8 +149,9 @@ footer {
     width: 60%;
     height: 450px;
     object-fit: cover;
-    margin: 80px auto 0 auto;
-    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    border-radius: 50px;
+
 }
 
 .servicos{
@@ -149,28 +159,58 @@ padding: 10px 0 100px 0;
 }
 .h2-servicos{
 font-weight: 500;
-
+text-shadow: 2px 2px 4px rgba(88, 83, 83, 0.5);
 }
 
+.OP{
+color: #793535;
+text-shadow: 2px 6px 4px rgba(175, 141, 141, 0.5);
+margin-top: 20px;      
+margin-bottom: 40px; 
+display: block;
+font-size: 50px;       
+font-weight: 700; 
+background-color: #fff4f4;
+
+}
 .lista-servicos{
-    width: 240px;
-    display: block;
-    text-decoration: none;
-    color: #515151;
-    border: 2px solid;
-    margin: 0 50px;
-    padding: 20px 0 ;
-    border-radius: 15px;
-    transition: box-shadow 0,2, transform 0,2;
+        width: 240px;
+        display: block;
+        text-decoration: none;
+        color: #582323;
+        border: 2px solid;
+        border-color: #a17272;
+        margin: 0 50px;
+        padding: 45px 0;
+        border-radius: 50px;
 }
 
 .lista-servicos:hover{
-    box-shadow: 0 2px 5px rgba(214, 214, 214, 0.2);
+    box-shadow: 0 2px 5px rgb(255, 238, 238);
     transform: translateV(-2px);
 }
 
 .img-card{
-   width: 70%;
+   width: 80%;
+}
+
+.agenda {
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background: #934E5B;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+    transition:scale 0.3s;
+}
+
+.agenda:hover {
+    opacity: 0.9;
+   scale: 1.02;
 }
 
 @media (max-width:768px) {
