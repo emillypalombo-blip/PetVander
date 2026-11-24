@@ -16,22 +16,27 @@ nav {
 
 header {
     margin: 14px 0 76px 0 ;
-    background-color: #fffaee;
+    background-color: #ffffff;
     padding: 30px 0 20px 0;
-    border-bottom: 2px solid #f1ede5;
+    border-bottom: 2px solid #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+body {
+    background-color: #fff2d8;
+}
+
 .nome{
    font-size: 30px ;
    font-weight: 700;
 }
 .n1{
-    color: #934E5B;
+    color: #D99045;
 }
 .n2{
-    color: #3f2b27;
+    color: #542713;
 }
 .link-menu {
     font-weight: 500;
@@ -39,7 +44,7 @@ header {
     line-height: 30px;
     margin: 25px;
     cursor: pointer;
-    color: #4e2c2c;
+    color: #542713;
     transition: opacity 0.2;
     text-decoration: none;
 }
@@ -52,7 +57,7 @@ a:hover {
     width: 160px;
     height: 40px;
     border-radius: 30px;
-    background: #934E5B;
+    background: #D99045;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -82,8 +87,11 @@ a:hover {
     vertical-align: middle;
     margin: 0 0 0 5%;
     text-align: left;
-    background-color: #fff3f3;
+    background-color: #ffffff;
     border-radius: 5%;
+    text-align: center;
+    line-height: 1;
+
 
 }
 
@@ -96,13 +104,16 @@ main {
     height: 45px;
     border-radius: 30px;
     cursor: pointer;
-    background: #c5788c;
+    background: #F5B7A5;
     border: none;
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
     box-shadow: 0 4px 5px rgba(255, 255, 255, 0.918);
     transition: opacity 0.3s;
+    position: relative;
+    top: -20px; 
+
 }
 
 .botaoE:hover {
@@ -112,9 +123,11 @@ main {
 .titulo {
     font-size: 50px;
     font-weight: 800;
-    color: #5a370f;
+    color: #FFC95C;
     height: 70px;
-    text-shadow: 2px 6px 4px rgba(175, 141, 141, 0.5);
+    line-height: 2;
+    text-align: center;
+
 }
 
 .sub-titulo {
@@ -122,36 +135,86 @@ main {
     color: #4e2c2c;
     line-height: -90px;
     height: 70px;
+    text-align: center;
 }
 
 .paragrafo {
     font-size: 16px;
     font-weight: 350;
     line-height: 20px;
-    color: #6d3434;
+    color: #542713;
     text-align: justify;
     margin: 20px 0 30px 0;
-    max-width: 500px;
-    height: 50px;
+    text-align: center;
+    position: relative;
+    top: -25px; 
+
 }
 
 footer {
     text-align: center;
-    background-color: #ac7d7d;
-    padding: 80px 0 80px 0;
-    font-size: 15px;
-    margin-top: 100px;
+    padding: 70px 0 50px 0;
+    font-size: 12px;
     color: #ffffff;
+    background-color: #F5B7A5;
+
+}
+
+.contato {
+border-bottom:#ffffff 3px solid;
+width: 260px;
+margin:0 auto 30px auto;
+padding: 0 0 10px 0;
+}
+
+.contato a{
+color: #755d5d;
+text-decoration: none;
+}
+.contato p{
+margin:8px 0;
+font-size: 14px;
 }
 
 .img-dog {
     display: block;
-    width: 60%;
-    height: 450px;
+    width: 70%;
+    max-width: 700px;
+    height: 400px;
     object-fit: cover;
-    margin: 0 auto 0 auto;
-    border-radius: 50px;
+    margin: 80px auto 80px auto;
+    border-radius: 80px;
+}
 
+/*video*/
+.sobre{
+    padding: 50px 0 ;
+
+}
+
+.video{
+display: block;
+margin: 0 auto 0 auto;
+width: 70%;
+max-width: 640px;
+height: 350px;
+border-radius: 15px;
+}
+
+.titulo-video{
+color: #5f2d18;
+font-size: 35px;
+padding: auto;
+text-align: center;
+background-color: #ffffff;
+line-height: 2;
+line-break: auto;
+position: relative;
+top: -40px; 
+  
+}
+.card-secao{
+padding: 80px 0 0 0;
 }
 
 .servicos{
@@ -164,13 +227,17 @@ text-shadow: 2px 2px 4px rgba(88, 83, 83, 0.5);
 
 .OP{
 color: #793535;
-text-shadow: 2px 6px 4px rgba(175, 141, 141, 0.5);
+text-shadow: 2px 6px 4px rgba(255, 255, 255, 0.5);
 margin-top: 20px;      
 margin-bottom: 40px; 
 display: block;
 font-size: 50px;       
 font-weight: 700; 
-background-color: #fff4f4;
+background-color: #ffffff;
+position: relative;
+top: -10px; 
+
+  
 
 }
 .lista-servicos{
@@ -179,17 +246,18 @@ background-color: #fff4f4;
         text-decoration: none;
         color: #582323;
         border: 2px solid;
-        border-color: #a17272;
+        border-color: #8a5454;
+        background-color: #ffffff;
         margin: 0 50px;
         padding: 45px 0;
         border-radius: 50px;
 }
 
 .lista-servicos:hover{
-    box-shadow: 0 2px 5px rgb(255, 238, 238);
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
     transform: translateV(-2px);
+    
 }
-
 .img-card{
    width: 80%;
 }
@@ -198,7 +266,7 @@ background-color: #fff4f4;
     width: 160px;
     height: 40px;
     border-radius: 30px;
-    background: #934E5B;
+    background: #D99045;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -206,6 +274,8 @@ background-color: #fff4f4;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s;
     transition:scale 0.3s;
+    position: relative;
+    top: -50px; 
 }
 
 .agenda:hover {
@@ -215,9 +285,10 @@ background-color: #fff4f4;
 
 @media (max-width:768px) {
     header {
-        margin: 20px 0 30px 0;
+        margin: 0px 0 0px 0;
         text-align: center;
         width: 100%;
+        padding: 20px 0 10px 0;
     }
 
     .nome{
